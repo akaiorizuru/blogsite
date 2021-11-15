@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap");
+body {
+  background-color: #dff7ee;
+  font-family: 'Noto Sans', sans-serif;
+  min-height: 95vh;
+  width: 95%;
+  padding: 0 0em 0 2em;
+  position: absolute;
+}
+
+body .accueil {
+  min-height: 90vh;
+  width: 95%;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body .accueil .titleaccueil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+body .accueil .titleaccueil h1 {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+body .accueil .titleaccueil #title_metatext {
+  color: #686868;
+  margin-bottom: 35px;
+}
+
+body .accueil .titleaccueil .separationline {
+  width: 60%;
+  border: 0.005em solid #686868;
+  position: relative;
+  left: 20%;
+}
+
+body .accueil .categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .accueil .categories .categorie a {
+  width: 10em;
+  height: 3em;
+  margin: 1vw;
+  border: 1px solid #686868;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
