@@ -35,9 +35,9 @@ body {
     font-family: 'Signika Negative', sans-serif;
     font-size: 40px;
     color: white;
-    background: #1a9159;
+    background: #1a917d;
     transition: 1s;
-    box-shadow: 6px 6px 0 rgb(6, 56, 52);
+    box-shadow: 6px 6px 0 rgb(6, 53, 56);
     transform: skewX(-15deg);
 }
 
@@ -47,7 +47,7 @@ body {
 
 .cta:hover {
     transition: 0.5s;
-    box-shadow: 10px 10px 0 #5cf8e3;
+    box-shadow: 10px 10px 0 #1a917d;
 }
 
 .cta span:nth-child(2) {

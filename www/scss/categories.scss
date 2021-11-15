@@ -1,1 +1,70 @@
 //apply to all 'categories' file
+
+//@import
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+//$colors 
+$buttonborderlinecolor : #177566;
+$buttontxtcolor : #1a917d;
+
+a{
+    text-decoration: none;
+}
+
+.buttonbox{
+    color: $buttontxtcolor;
+    transition: all 0.3s;
+    position: relative;
+    width: 160px;
+    margin-left: 5px;
+    right:35vw;
+    bottom: -20vh;
+    &:before{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 160px;
+      height: 100%;
+      z-index: 1;
+      opacity: 0;
+      transition: all 0.3s;
+      border-top-width: 1px;
+      border-bottom-width: 1px;
+      border-top-style: solid;
+      border-bottom-style: solid;
+      border-top-color: $buttonborderlinecolor;
+      border-bottom-color: $buttonborderlinecolor;
+      transform: scale(0.1, 1);
+    }
+    &:hover:before{
+      opacity: 1; 
+      transform: scale(1, 1); 
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 250px;
+      height: 100%;
+      z-index: 1;
+      transition: all 0.3s;
+      background-color: rgba(255,255,255,0.1);
+    }
+    &:hover:after{
+      opacity: 0; 
+      transform: scale(0.1, 1);
+    }
+    &:hover span{
+      letter-spacing: 2px;
+    }
+
+    .buttontxt{
+        font-size: 40px;
+        transition: all 0.5s;
+        text-align: center;
+        padding-left: 7px;
+        text-decoration: none;
+    }
+}

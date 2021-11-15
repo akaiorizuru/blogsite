@@ -43,11 +43,11 @@ body {
   font-family: 'Signika Negative', sans-serif;
   font-size: 40px;
   color: white;
-  background: #1a9159;
+  background: #1a917d;
   -webkit-transition: 1s;
   transition: 1s;
-  -webkit-box-shadow: 6px 6px 0 #063834;
-          box-shadow: 6px 6px 0 #063834;
+  -webkit-box-shadow: 6px 6px 0 #063538;
+          box-shadow: 6px 6px 0 #063538;
   -webkit-transform: skewX(-15deg);
           transform: skewX(-15deg);
 }
@@ -59,8 +59,8 @@ body {
 .cta:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-box-shadow: 10px 10px 0 #5cf8e3;
-          box-shadow: 10px 10px 0 #5cf8e3;
+  -webkit-box-shadow: 10px 10px 0 #1a917d;
+          box-shadow: 10px 10px 0 #1a917d;
 }
 
 .cta span:nth-child(2) {
