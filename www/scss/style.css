@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap");
 body {
-  background-color: #dff7ee;
+  background-color: rgba(223, 247, 238, 0.356);
   font-family: 'Noto Sans', sans-serif;
   min-height: 95vh;
   width: 95%;
