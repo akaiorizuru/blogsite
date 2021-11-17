@@ -1,16 +1,21 @@
 //colors
-
+$txtcolor: black;
 
 //mixins
 @mixin containe2blocks {
     display: flex;
 }
 
+@mixin block{
+    padding:1em;
+}
+
 @mixin block2in1row {
     width: 50vw;
     margin: 5px;
-    border: 1em solid rgba(170, 50, 220, .6);
+    border: 1px solid rgba(204, 204, 204, 0.6);
     border-radius: 5px;
+    @include block();
 }
 
 
@@ -30,15 +35,32 @@
     display: inline-block;
 }
 
+a{
+    text-decoration: line;
+    color: black;
+    transition: backgroud-color 0.5s;
+    &:hover{
+        cursor: pointer;
+        background-color: cadetblue;
+    }
+}
+
+
 .section-2horizontale-elements{
-    @include containe2blocks();
     width: 100vw;
     height: 280px;
     .titleresultat{
         text-align: center;
     }
-    .leftbox{
-        @include block;
+    .block2in1row{
+        @include containe2blocks();
+        
+        .leftbox{
+            @include block2in1row ;
+        }
+        .rightbox{
+            @include block2in1row
+        }
     }
 }
 
