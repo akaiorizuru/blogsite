@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.italic {
+  font-style: italic;
+  display: inline-block;
+}
+
+.line-through {
+  text-decoration: line-through;
+  display: inline-block;
+}
+
+.section-2horizontale-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 280px;
+}
+
+.section-2horizontale-elements .titleresultat {
+  text-align: center;
+}
+/*# sourceMappingURL=single-article.css.map */

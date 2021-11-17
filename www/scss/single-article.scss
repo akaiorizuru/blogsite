@@ -1,0 +1,44 @@
+//colors
+
+
+//mixins
+@mixin containe2blocks {
+    display: flex;
+}
+
+@mixin block2in1row {
+    width: 50vw;
+    margin: 5px;
+    border: 1em solid rgba(170, 50, 220, .6);
+    border-radius: 5px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.italic{
+    font-style: italic;
+    display: inline-block;
+}
+
+.line-through{
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.section-2horizontale-elements{
+    @include containe2blocks();
+    width: 100vw;
+    height: 280px;
+    .titleresultat{
+        text-align: center;
+    }
+    .leftbox{
+        @include block;
+    }
+}
+
