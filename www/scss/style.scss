@@ -14,9 +14,14 @@ $meta_element : rgb(104, 104, 104);
     justify-content: center;
 }
 
-body{
+*{
+    margin:0;
+    padding: 0;
     background-color: $fond;
     font-family: 'Noto Sans', sans-serif;
+}
+
+body{
     min-height: 95vh;
     width: 95%;
     padding: 0 0em 0 2em;
@@ -63,6 +68,7 @@ body{
                 margin: 1vw;
                 border: 1px solid $meta_element;
                 border-radius: 5px;
+                box-shadow: 5px 5px 4px rgba(180, 180, 180, 0.5);
                 display: grid;
                 align-content: center;
                 text-align: center;

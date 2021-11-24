@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap");
-body {
+* {
+  margin: 0;
+  padding: 0;
   background-color: rgba(223, 247, 238, 0.356);
   font-family: 'Noto Sans', sans-serif;
+}
+
+body {
   min-height: 95vh;
   width: 95%;
   padding: 0 0em 0 2em;
@@ -73,6 +78,8 @@ body .accueil .categories .categorie a {
   margin: 1vw;
   border: 1px solid #686868;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 4px rgba(180, 180, 180, 0.5);
+          box-shadow: 5px 5px 4px rgba(180, 180, 180, 0.5);
   display: -ms-grid;
   display: grid;
   -ms-flex-line-pack: center;

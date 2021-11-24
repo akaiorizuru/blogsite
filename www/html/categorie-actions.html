@@ -7,6 +7,9 @@
     <title>Actions</title>
     <link rel="stylesheet" href="/www/scss/categories.css">
     <link rel="stylesheet" href="/www/scss/button-animation.css">
+    <link rel="stylesheet" href="../scss/style.css">
+    <link rel="stylesheet" href="../scss/followMouseEffect.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
     <section>
@@ -50,5 +53,13 @@
             </section>
         </section>
     </section>
+    <script src="../js/followMouseEffect.js"></script>
+    <script>
+        init_pointer({
+            pointerColor: "grey", // Css color
+            ringSize: 15, // Pixels
+            ringClickSize: 10 // Pixels when clicking
+        })
+    </script>
 </body>
 </html>

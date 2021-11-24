@@ -7,6 +7,9 @@
     <title>20211117</title>
     <link rel="stylesheet" href="/www/scss/style.css">
     <link rel="stylesheet" href="/www/scss/single-article.css">
+    <link rel="stylesheet" href="../scss/style.css">
+    <link rel="stylesheet" href="../scss/followMouseEffect.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
     <main>
@@ -47,5 +50,13 @@
             Conclusion : Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, eaque perspiciatis eligendi hic id, earum similique vero atque optio assumenda laudantium veritatis, sequi tenetur? Soluta, delectus. Accusamus minus provident vitae!
         </article>
     </main>
+    <script src="../js/followMouseEffect.js"></script>
+    <script>
+        init_pointer({
+            pointerColor: "grey", // Css color
+            ringSize: 15, // Pixels
+            ringClickSize: 10 // Pixels when clicking
+        })
+    </script>
 </body>
 </html>

@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../scss/style.css"> -->
+    <link rel="stylesheet" href="../scss/followMouseEffect.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <article>
+        <div class="partArticle">
+            <h2>Sémiotique</h1>
+            <div class="card">
+                <pre>
+    
+                    triangle : 
+                                      Forme
+                                       /\
+                                      /  \
+                                     /    \
+                           Fonction /______\ Symbole
+                           
+                </pre>
+            </div>
+            <div class="card">
+                une chaise (forme)
+                    => fonction principale : s'asseoire 
+                    => symbole : une chaise de classe
+            </div>
+        </div>
+        <div class="partArticle">
+            <h2>
+                Prisme d'identité de la marque (Prisme de Kapferer)
+            </h2>
+            <div class="card">
+                <img src="../img/SchemaprismedeKapferer.webp.jpg" alt="Schéma du prisme de Kapferer">
+                <div>
+                    Différence entre ce qu'on pense et ce que les autres perçoivent
+                </div>
+            </div>
+            <q>KISS <mark>Keep It Simple & Stupid</mark> </q>
+        </div>
+    </article>
+    <script src="../js/followMouseEffect.js"></script>
+    <script>
+        init_pointer({
+            pointerColor: "grey", // Css color
+            ringSize: 15, // Pixels
+            ringClickSize: 10 // Pixels when clicking
+        })
+    </script>
+</body>
+</html>
