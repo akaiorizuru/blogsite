@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Le nombre de possibilité de la couleur verte</h1>
+        <div class="single-article">
+            Si on considère dans le système rgb comme vert toutes les couleurs où la valeur V est strictement supérieur à R et B, combien existe-t-il de variante de vert?
+            <div>
+                <h3>Brouillon de réflexion</h3>
+                <img src="../img/calculNbVertBrouillonReflexion.jpg" alt="Brouillon de la phase de réflexion pour trouver le nombre de vert possible">
+            </div>
+            Pour cela, j'ai considéré qu'il est plus rapide de trouver ce résultat en passant par l'ordinateur pour qu'il puisse exécuté un programme algorithmique que de chercher manuellement ce résultat.
+            <pre>
+                <code>
+                    ````js
+                    let r = 0; 
+                    let b = 0;
+                    let g = 0;
+                    let all = 0;
+                    for (let g = 0; g <= 10; g++) {
+                    // let green = g;
+                    for (let r = 0; r < g; r++) {
+                        for (let b = 0; b < g; b++) {
+                        all = all + 1;
+                        let rgb=[r,g,b]
+                        console.log(rgb);
+                        }
+                    }
+                    console.log(all)
+                    }
+                    ````
+                </code>
+            </pre>
+            Le résultat trouvé est : 5559680. <br> 
+            Il y a donc 5559680 variante possible de vert dans le système rgb.
+        </div>
+    </main>
+</body>
+</html>
