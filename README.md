@@ -10,7 +10,7 @@ Le site est réalisé dans le cadre du cours Conception réalisation de projet n
 ## Liens utiles 
 - Conduite de cours : https://docs.google.com/document/d/18WnhrgX_64BctafKhLfEFAEBGdC6bA2fs-K8LqNPVL8/edit 
 - Discord : https://discord.com/channels/902888885569331210/902888885569331213 
-- Support de présentation oral : 
+- Support de présentation oral : https://docs.google.com/presentation/d/1aiM5qETtAkLlBR0tn97TYFXg2TleWgjOQBNo089-8Ls/edit?usp=sharing 
 
 ## 20211027
 - Présentation : 1er décembre
